@@ -664,6 +664,7 @@ Transform:
   - {fileID: 7265321487454037708}
   - {fileID: 7265321488108145265}
   - {fileID: 7265321487470006790}
+  - {fileID: 6203674001689642674}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1136,3 +1137,65 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rollSpeed: 2.3
   rb: {fileID: 7265321488108145230}
+--- !u!1001 &5880955505609072985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 7265321487486148900}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000081460335
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+      propertyPath: m_Name
+      value: Rolling Ball
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+--- !u!4 &6203674001689642674 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 589ecc86aadb2b74cb8a0a957a824416, type: 3}
+  m_PrefabInstance: {fileID: 5880955505609072985}
+  m_PrefabAsset: {fileID: 0}
